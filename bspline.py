@@ -1,5 +1,3 @@
-#id: 961542181035
-
 import numpy as np
 import tkinter as tk
 import matplotlib.pyplot as plt
