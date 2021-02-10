@@ -38,7 +38,7 @@ def bspl_plot():
 
 def make_point(x, y):
     global points
-    points.append((x, y))
+    points.append((x, 512 - y))
 
     canvas.create_oval(x - 5, y - 5, x + 5, y + 5, fill='red')
 
