@@ -12,9 +12,10 @@ def bspl_plot():
 
     x = controller[:, 0]
     y = controller[:, 1]
-
-    x = np.append(x, [x[0]])
-    y = np.append(y, [y[0]])
+    
+    #uncomment for closed line
+    #x = np.append(x, [x[0]])
+    #y = np.append(y, [y[0]])
 
     l = len(x)
 
